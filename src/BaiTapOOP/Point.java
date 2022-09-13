@@ -1,8 +1,8 @@
 package BaiTapOOP;
 
 public class Point extends GeoMetry {
-	double x;
-	double y;
+	private double x;
+	private double y;
 	public static Point origin = new Point(); // Khai báo biến static origin biểu diễn gốc tọa độ (0,0).
 
 	// Constructor Hàm khởi tạo

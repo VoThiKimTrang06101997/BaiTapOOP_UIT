@@ -1,9 +1,9 @@
 package BaiTapOOP;
 
 public class Triangle extends GeoMetry {
-	Point dinh_A;
-	Point dinh_B;
-	Point dinh_C;
+	private Point dinh_A;
+	private Point dinh_B;
+	private Point dinh_C;
 
 	// Constructor Hàm khởi tạo
 	public Triangle(Point dinh_A, Point dinh_B, Point dinh_C) {
@@ -76,8 +76,8 @@ public class Triangle extends GeoMetry {
 		Float b = this.chieuDaiAC();
 		Float c = this.chieuDaiBC();
 		Float s = (a + b + c) / 2;
-		Float Area = (float) Math.sqrt(s * (s - a) * (s - b) * (s - c));
-		return Area;
+		Float dientich_Area = (float) Math.sqrt(s * (s - a) * (s - b) * (s - c));
+		return dientich_Area;
 	}
 
 	@Override
@@ -101,8 +101,8 @@ public class Triangle extends GeoMetry {
 		Float a = this.chieuDaiAB();
 		Float b = this.chieuDaiAC();
 		Float c = this.chieuDaiBC();
-		Float P = a + b + c;
-		return P;
+		Float chuvi_P = a + b + c;
+		return chuvi_P;
 
 	}
 

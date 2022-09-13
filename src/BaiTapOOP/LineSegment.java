@@ -1,8 +1,8 @@
 package BaiTapOOP;
 
 public class LineSegment extends GeoMetry {
-	Point diem_A;
-	Point diem_B;
+	private Point diem_A;
+	private Point diem_B;
 
 	// Constructor Hàm khởi tạo
 	public LineSegment(Point diem_A, Point diem_B) {

@@ -1,8 +1,8 @@
 package BaiTapOOP;
 
 public class Circle extends GeoMetry {
-	Point tam_O;
-	Float bankinh_r;
+	private Point tam_O;
+	private Float bankinh_r;
 
 	// Constructor Hàm khởi tạo
 	public Circle(Point tam_O, Float bankinh_r) {
